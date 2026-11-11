@@ -29,10 +29,20 @@ Havva Nur Yanık · 2416501025
 | `/sifremi-unuttum` | Şifremi unuttum |
 | `*` | 404 sayfası |
 
-## Klasör yapısı
+## Repo yapısı
 
 ```
-src/
+frontend/   React + TypeScript + Vite arayüzü (localhost:5173)
+backend/    Node.js + Express REST API (localhost:3000)
+README.md
+```
+
+Backend'in çalıştırma komutları, `PORT` değişkeni ve REST sözleşmesi: [backend/README.md](backend/README.md)
+
+## Frontend klasör yapısı
+
+```
+frontend/src/
   components/
     events/   EventCard, EventList, EventFilter, EventDetail
     forms/    EventForm, FormField
@@ -46,10 +56,22 @@ src/
 
 ## Çalıştırma
 
+Frontend:
+
 ```bash
+cd frontend
 npm install
-npm run dev      # geliştirme sunucusu
+npm run dev      # geliştirme sunucusu (http://localhost:5173)
 npm run build    # üretim derlemesi
+```
+
+Backend:
+
+```bash
+cd backend
+npm install
+cp .env.example .env
+npm run dev      # API (http://localhost:3000)
 ```
 
 `vercel.json`, sayfa yenilendiğinde de route'ların çalışması için tüm istekleri `index.html`'e yönlendirir.
