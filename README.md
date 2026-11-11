@@ -72,6 +72,3 @@ cp .env.example .env
 npm run dev      # API (http://localhost:3000)
 ```
 
-`vercel.json`, sayfa yenilendiğinde de route'ların çalışması için tüm istekleri `index.html`'e yönlendirir.
-
-Sprint 5 yayını: https://sprint5-five.vercel.app
