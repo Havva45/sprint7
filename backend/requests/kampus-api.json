@@ -95,7 +95,7 @@
 				],
 				"body": {
 					"mode": "raw",
-					"raw": "{\n  \"title\": \"Git Atölyesi\",\n  \"category\": \"Atölye\",\n  \"date\": \"2026-12-01\",\n  \"capacity\": 30,\n  \"time\": \"10:00\",\n  \"location\": \"Bilgisayar Lab 2\",\n  \"description\": \"Git ve GitHub ile temel versiyon kontrolü.\"\n}",
+					"raw": "{\n  \"title\": \"Eğirdir Gölü Doğa Yürüyüşü ve Kamp Ateşi\",\n  \"category\": \"Söyleşi\",\n  \"date\": \"2026-12-20\",\n  \"capacity\": 40,\n  \"time\": \"08:30\",\n  \"location\": \"SDÜ Doğu Kampüsü Ana Kapı\",\n  \"description\": \"Doğa sporları kulübüyle Eğirdir sahilinde yürüyüş, ardından kamp ateşi başında sohbet.\"\n}",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -128,7 +128,7 @@
 				],
 				"body": {
 					"mode": "raw",
-					"raw": "{\n  \"title\": \"Git Atölyesi\"\n}",
+					"raw": "{\n  \"title\": \"Eğirdir Gölü Doğa Yürüyüşü ve Kamp Ateşi\"\n}",
 					"options": {
 						"raw": {
 							"language": "json"
